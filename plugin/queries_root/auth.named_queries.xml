@@ -1,0 +1,18 @@
+<queries>
+
+    <query flattened="true" name="com.icsd.sp.overview.gpa">
+        <args>
+            <arg description="SCHOOLSTAFF.ID" name="userid" required="true" type="primitive"/>
+        </args>
+        <columns>
+            <column column="logins.psid">psid</column>
+        </columns>
+        <sql>
+            <![CDATA[
+                SELECT psid
+                FROM logins
+                WHERE userid = :userid AND logouttime = 0
+		    ]]>
+        </sql>
+    </query>
+</queries>

@@ -1,0 +1,24 @@
+{
+  "name": "ps-api-session-auth",
+  "version": "0.1.0",
+  "description": "A web service that authenticates a PowerSchool session with the PowerSchool API that does not require cookie-based authentication.",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IronCountySchoolDistrict/ps-api-session-auth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IronCountySchoolDistrict/ps-api-session-auth/issues"
+  },
+  "homepage": "https://github.com/IronCountySchoolDistrict/ps-api-session-auth#readme",
+  "devDependencies": {
+    "babel-core": "^6.7.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.0",
+    "gulp-ps-tasks": "^0.3.6"
+  }
+}
